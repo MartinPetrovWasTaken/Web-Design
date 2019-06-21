@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="UTF-8">
+	 <link rel="stylesheet" type="text/css" href="WEB_CSS.css">
+	 <script src="script.js"></script>
+</head>
+<body onload="currentSlide(1)">
+	<h1 id="title" >Game-Hub</h1>
+	<div class="navbar">
+		<a href="WEB_Project.html">home</a>
+		<a href="Guides.html">guides</a>
+		<div class="dropdown">
+			<button class="dropbtn">platform
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="Steam.html">steam</a>
+				<a href="Battle.html">battle.net</a>
+				<a href="Epicgames.html">epic games</a>
+			</div>
+		</div> 
+	</div>
+	
+	<div class="background" style="height: 850px">
+		<div class="slideshow-container">
+
+		  <div class="mySlides fade">
+			<div class="numbertext">1 / 6</div>
+			<img src="img1.jpg" style="width:100%">
+		  </div>
+
+		  <div class="mySlides fade">
+			<div class="numbertext">2 / 6</div>
+			<img src="img2.jpg" style="width:100%">
+		  </div>
+
+		  <div class="mySlides fade">
+			<div class="numbertext">3 / 6</div>
+			<img src="img3.jpg" style="width:100%">
+		  </div>
+		  
+		  <div class="mySlides fade">
+			<div class="numbertext">4 / 6</div>
+			<img src="img4.jpg" style="width:100%">
+		  </div>
+		  
+		  <div class="mySlides fade">
+			<div class="numbertext">5 / 6</div>
+			<img src="img5.jpg" style="width:100%">
+		  </div>
+		  
+		  <div class="mySlides fade">
+			<div class="numbertext">6 / 6</div>
+			<img src="img6.jpg" style="width:100%">
+		  </div>
+
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		  <span class="dot" onclick="currentSlide(4)"></span> 
+		  <span class="dot" onclick="currentSlide(5)"></span> 
+		  <span class="dot" onclick="currentSlide(6)"></span> 
+		</div>
+		
+		<p class="quote">" Every age has its storytelling form, and video gaming is a huge part of our culture. You can ignore<br>or embrace video games and imbue them with the best artistic quality. People are enthralled with<br>video games in the same way as other people love the cinema or theatre. "</p>
+
+		<table style="margin: 0 auto; margin-top: 150px">
+			<tr>
+				<td><a href=""><img src="fb.png" class="social" /></a></td>
+				<td><a href=""><img src="ig.png" class="social" /></a></td>
+				<td><a href="https://www.snapchat.com/add/martinpetrov00"><img src="sc.png" class="social" /></a></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
